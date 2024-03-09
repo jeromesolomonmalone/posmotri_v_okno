@@ -43,7 +43,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   margin: auto;
-  margin: 133px 30px;
+  padding: 133px 30px;
   min-inline-size: 1140px;
 }
 
