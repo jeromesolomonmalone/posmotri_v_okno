@@ -12,13 +12,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  inline-size: 1200px;
-  block-size: 800px;
 }
 
 h1,
@@ -44,7 +41,7 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  padding: 133px 30px;
+  margin: 133px 30px;
   min-inline-size: 1140px;
 }
 
@@ -209,7 +206,7 @@ input::placeholder {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 15px;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -229,7 +226,7 @@ input::placeholder {
 .content__list {
   position: relative;
   overflow: scroll;
-  block-size: 300px;
+  max-block-size: 300px;
 }
 
 .preloader-template {
