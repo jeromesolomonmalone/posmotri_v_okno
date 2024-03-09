@@ -9,13 +9,13 @@ html {
 }
 
 .page {
-  margin: auto;
+  display: flex;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
-  block-size: 100%;
+  block-size: 800px;
 }
 
 h1,
@@ -39,9 +39,9 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
   gap: 30px;
+  margin: auto;
   margin: 133px 30px;
   min-inline-size: 1140px;
 }
@@ -232,6 +232,7 @@ input::placeholder {
 
 .preloader-template {
   position: absolute;
+  inset: 0;
 }
 
 .content__list-item:not(:last-child) {
@@ -246,8 +247,8 @@ input::placeholder {
 }
 
 .content__card-link_current {
-  background-color: #545050;
   padding-inline-start: 2px;
+  background-color: #545050;
 }
 
 .content__card-link:focus {
