@@ -10,6 +10,7 @@ html {
 
 .page {
   display: flex;
+  margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -233,6 +234,8 @@ input::placeholder {
 .preloader-template {
   position: absolute;
   inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .content__list-item:not(:last-child) {
