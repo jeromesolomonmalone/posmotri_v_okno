@@ -10,6 +10,8 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -42,7 +44,6 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  margin: auto;
   padding: 133px 30px;
   min-inline-size: 1140px;
 }
