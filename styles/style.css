@@ -45,7 +45,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   margin: 133px 30px;
-  min-inline-size: 1140px;
+  inline-size: 1140px;
 }
 
 .result__video-container {
@@ -280,7 +280,5 @@ input::placeholder {
 }
 
 .more-button {
-  border: 1px solid currentColor;
   inline-size: 100%;
-  block-size: 34px;
 }
